@@ -7,7 +7,7 @@ const UserList = ({ users, deleteUser, editUser }) => {
         <div key={user.id}>
           <h3>{user.name}</h3>
           <p>Email: {user.email}</p>
-          <p>Phone: {user.phone}</p>
+          <p>Phone : {user.phone}</p>
           <button onClick={() => editUser(user.id)}>Edit</button>
           <button onClick={() => deleteUser(user.id)}>Delete</button>
         </div>
